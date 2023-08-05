@@ -12,7 +12,7 @@ Application loads file from the path sent and counts the unique words ignoring s
 Application Run:
 1. Clone the repo. which already has jar file created which can be run separately.
 2. To run application execute below command from target folder:
-   1. java -jar JPWordCountAssignment-1.0-SNAPSHOT-jar-with-dependencies.jar <FULLY QUALIFIED FILE PATH>
+   1. java -jar JPWordCountAssignment-1.0-SNAPSHOT-jar-with-dependencies.jar <FULLY_QUALIFIED_FILE_PATH>
 3. There are tests written which can be run to validate the different scenarios including invalid ones.
 4. While running the application the argument needs to be passed which should be the path of file which
 needs to be processed.
