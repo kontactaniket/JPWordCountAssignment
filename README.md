@@ -25,8 +25,8 @@ needs to be processed.
 ### Testing
 Test cases covers below scenarios:
 1. File path is empty or invalid. Asserts if appropriate message is printed.
-2. Asserts if the correct number of words are extracted from the file 
-3. Tests if specif words with count are captured and special characters are not present.
+2. Asserts if the correct number of words are extracted from the file.
+3. Tests if specific words with count are captured and special characters are not present in printed output.
 
 ### Result Screenshots & Evidences 
 1.Running application with valid input (https://www.gnu.org/licenses/gpl-3.0.txt)
