@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: Aniket K
+Class-Path: json-20230618.jar junit-jupiter-5.8.2.jar
+Main-Class: com.aniket.assignment.WordCountAssignment
