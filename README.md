@@ -5,20 +5,22 @@ Application loads file from the path sent and counts the unique words ignoring s
 
 ### Libraries & Versions
 1. JDK 16
-2. junit-jupiter 5
-3. json 20230618
+2. json-20230618.jar
+3. junit-jupiter-5.8.2.jar
 
 ### Guidelines
 Application Run:
 1. Clone the repo. which already has jar file created which can be run separately.
-2. There are tests written which can be run to validate the different scenarios including invalid ones.
-3. While running the application the argument needs to be passed which should be the path of file which 
+2. To run application execute below command from target folder:
+   1. java -jar JPWordCountAssignment-1.0-SNAPSHOT-jar-with-dependencies.jar <FULLY QUALIFIED FILE PATH>
+3. There are tests written which can be run to validate the different scenarios including invalid ones.
+4. While running the application the argument needs to be passed which should be the path of file which
 needs to be processed.
-4. The application accept file path and produces outputs as below:
+5. The application accept file path and produces outputs as below:
    1. If the path sent as argument is empty or invalid appropriate message is displayed.
    2. If path is valid, Application loads the file and processes it line by line. Filters out characters apart from
    lower and upper letters and numbers, stores in map and prints out as json.
-5. Parallel stream api is used to achieve parallel processing and Concurrent hashmap is used to avoid race condition.
+6. Parallel stream api is used to achieve parallel processing and Concurrent hashmap is used to avoid race condition.
 
 ### Testing
 Test cases covers below scenarios:
